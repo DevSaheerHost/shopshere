@@ -127,3 +127,30 @@ body{
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
+
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px;
+  width: 100%;
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  gap: 20px;justify-content: space-between;
+li {
+  display: inline;
+  margin: 0 6px;
+
+  &:hover {
+      color: blue;
+  }
+}
+.menu-btn{
+  font-size: 20px;
+}
+}
