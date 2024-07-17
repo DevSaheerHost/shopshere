@@ -1,0 +1,14 @@
+@media (max-width: 600px){
+  header nav{
+    display: none;
+  }
+  main .container{
+    display: block;
+    text-align: center;
+  }
+ main .container .left{
+    text-align: center;
+    width: 100%;
+  }
+}
+
